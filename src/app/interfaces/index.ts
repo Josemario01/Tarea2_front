@@ -88,3 +88,10 @@ export interface IPreferenceList {
   name?: string;
   movies?: IMovie[];
 }
+
+export interface ICategory {
+  id?: number;
+  description?: string;
+  name?: string;
+  
+}
